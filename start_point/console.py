@@ -12,3 +12,6 @@ artist_repository.save(artist_1)
 
 album_1 = Album("Album 1", "Rock", artist_1)
 album_repository.save(album_1)
+
+artist_repository.select_all()
+album_repository.select_all()
